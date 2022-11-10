@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #011126;
+  color: #f2f2f2;
+  min-height: 100vh;
+  font-family: 'Outfit', sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul,
+nav,
+a,
+li {
+  text-decoration: none;
+  list-style: none;
+}
