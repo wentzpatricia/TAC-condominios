@@ -1,0 +1,19 @@
+.icon_empresa{
+    width: 65px;
+}
+.titulo_valores{
+    font-family: Karla;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #000C79;
+}
+.texto_valores{
+    font-family: Karla;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #000000;
+}
