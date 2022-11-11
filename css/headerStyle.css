@@ -1,9 +1,22 @@
 .header {
-  margin: 20px;
+  margin: 1%;
   border: 1px solid #f2f2f2;
   border-radius: 50px;
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  z-index: 100;
+  display: flex;
+  width: 98%;
+  background: #011126;
+  align-items: center;
+  justify-content: space-around;
+  transition: 0.5s;
+}
+
+.header.sticky {
+  background: #578bf2;
+  height: 50px;
 }
 .header nav {
   position: fixed;
@@ -11,18 +24,17 @@
   max-height: 0;
   transition: max-height 0.8s ease-out;
   background: #f2f2f2;
-  top: 125px;
-  right: 35px;
+  top: 52px;
+  right: 5px;
+  width: 200px;
 }
 
 .header__logo {
-  display: inline-block;
-  width: 70px;
+  width: 50px;
   margin: 20px 0px 20px 20px;
 }
 
 .header__nav a {
-  margin: 25px 5px;
   display: block;
   padding: 10px 20px;
   color: #5c6dd0;
@@ -103,6 +115,9 @@
   .header__nav a {
     color: #f2f2f2;
   }
+  .header.sticky {
+    color: #011126;
+  }
 
   .header__nav a:hover {
     border-bottom: 1px solid #5c6dd0;
@@ -111,5 +126,16 @@
 
   .responsiveMenuHamb {
     display: none;
+  }
+
+  .header__logo {
+    display: inline-block;
+    width: 70px;
+    margin: 10px;
+  }
+
+  .header.sticky {
+    height: 75px;
+    transition: 0.5s;
   }
 }

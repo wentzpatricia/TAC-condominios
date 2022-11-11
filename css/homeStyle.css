@@ -12,7 +12,7 @@
   position: absolute;
   color: #fff;
   padding-left: 90px;
-  top: 400px;
+  top: 200px;
   width: 700px;
   line-height: 50px;
 }
@@ -29,7 +29,6 @@
 
 @media (max-width: 885px) {
   .home__text {
-    top: 325px;
     width: 600px;
     line-height: 40px;
   }
@@ -44,7 +43,7 @@
 @media (max-width: 669px) {
   .home__text {
     width: 375px;
-    top: 275px;
+    top: 120px;
     padding-left: 50px;
     line-height: 30px;
   }
@@ -58,7 +57,6 @@
 }
 @media (max-width: 477px) {
   .home__text {
-    top: 275px;
     width: 300px;
     line-height: 20px;
     padding-left: 50px;
