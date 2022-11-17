@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./css/headerStyle.css" />
     <link rel="stylesheet" href="./css/login.css" />
     <link rel="stylesheet" href="./css/empresaStyle.css" />
+    <link rel="stylesheet" href="./css/footerStyle.css" />
     <!--Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -26,7 +27,41 @@
 </head>
 
 <body>
+    
     <div class="container">
+        <header>
+            <div class="header">
+              <img
+                class="header__logo"
+                src="./img/logoTac.png"
+                alt="ilustração do logo da empresa"
+              />
+              <!-- Hamburger icon -->
+              <input class="responsiveMenu" type="checkbox" id="responsiveMenu" />
+              <label class="responsiveMenuHamb" for="responsiveMenu">
+                <span class="responsiveMenuHamb__line"></span>
+              </label>
+              <nav>
+                <ul class="header__nav">
+                  <li>
+                    <a href="index.html#home">home</a>
+                  </li>
+                  <li>
+                    <a href="index.html#empresa">a empresa</a>
+                  </li>
+                  <li>
+                    <a href="index.html#ferramentas">ferramentas</a>
+                  </li>
+                  <li>
+                    <a href="index.html#contato">contato</a>
+                  </li>
+                  <li>
+                    <a href="entrar.html">entrar</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+        </header>
         <div class="loginBox">
             <div class="logo">
                 <img src="./img/logoTac.png">
@@ -55,5 +90,28 @@
                 </div>
             </form>
         </div>
+        
     </div>
+    <footer class="footer">
+        <div>
+          <img
+          class="header__logo"
+          src="./img/logoTac.png"
+          alt="ilustração do logo da empresa"
+        />
+        <p>O sistema TAC possui um conjunto de ferramentas desenvolvidas para tornar mais rápida e eficiente a gestão e administração de seu condomínio.</p>
+        </div>
+        
+        <div>
+          <h3>Contatos</h3>
+          <h4>Fone: (51) 99422-0540</h4>
+          <h4>Email: comercial@taccondominios.com.br</h4>
+          <nav>
+            <a><ion-icon class="redesSociais" name="logo-instagram"></ion-icon></a>
+            <a><ion-icon class="redesSociais" name="logo-whatsapp"></ion-icon></a>
+            <a><ion-icon class="redesSociais" name="logo-twitter"></ion-icon></a>
+            <a><ion-icon class="redesSociais" name="logo-facebook"></ion-icon></a>
+          </nav>
+        </div>
+    </footer>
 </body>  
