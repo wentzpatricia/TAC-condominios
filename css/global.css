@@ -9,6 +9,7 @@ body {
   color: #f2f2f2;
   min-height: 100vh;
   font-family: 'Outfit', sans-serif;
+  overflow-x: hidden;
 }
 
 button {
