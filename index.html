@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="./css/homeStyle.css" />
     <link rel="stylesheet" href="./css/empresaStyle.css" />
     <link rel="stylesheet" href="./css/footerStyle.css"/>
+    <link rel="stylesheet" href="./css/contatoStyle.css" />
+
     <!--Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -521,16 +523,97 @@
         essentially unchanged.
       </p>
     </main>
-    <section id="contato">
-      <h2>Contato</h2>
-      <p>
-        What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing
-        and typesetting industry. Lorem Ipsum has been the industry's standard
-        dummy text ever since the 1500s, when an unknown printer took a galley
-        of type and scrambled it to make a type specimen book. It has survived
-        not only five centuries, but also the leap into electronic typesetting,
-        remaining essentially unchanged.
-      </p>
+    <section id="contato" class="contato">
+      
+      <hr class="contato__title-hr" />
+        <div class="contato__container">
+          
+          <ul>
+            <li>
+              <h2>Contato</h2>
+            </li>
+            <li>
+              <ion-icon 
+              class="contato-icon" name="home-outline"></ion-icon> Praça Osvaldo Cruz 15 Cj 1701, Centro Historico, Porto Alegre - RS
+            </li>
+
+            <li>
+              <ion-icon
+              class="contato-icon" 
+              name="mail-outline"></ion-icon>comercial@taccondominios.com.br
+            </li>
+
+            <li>
+              <ion-icon
+              class="contato-icon" 
+              name="call-outline"></ion-icon>comercial@taccondominios.com.br
+            </li>
+
+            <li>
+              <ion-icon
+              class="contato-icon" 
+              name="globe-outline"></ion-icon>http://www.taccondominios.com.br
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <h2>Horários</h2>
+            </li>
+            <li>
+              <ion-icon
+              class="contato-icon" 
+              name="alarm-outline"></ion-icon>Segunda-Sexta: 09h as 18h
+            </li>
+        </ul>
+      </div>
+      <hr class="contato__title-hr" />
+      <div class="contato__form">
+        <div>
+          <ul>
+            <li>
+              <h2>Vantagens do TAC</h2>
+            </li>
+            <li>
+              <ion-icon 
+              class="vantagens-icon"
+              name="checkmark-circle-outline"></ion-icon>
+              Você escolhe o domínio do site.
+            </li>
+            <li>
+              <ion-icon
+              class="vantagens-icon"
+              name="checkmark-circle-outline"></ion-icon>
+              Servidor dedicado.
+            <li>
+              <ion-icon 
+              class="vantagens-icon"
+              name="checkmark-circle-outline"></ion-icon>
+              Seu site no ar em até 48 horas.
+            </li>
+          </ul>
+        </div>
+        <form class="form-contato" action="#" method="post">
+          <legend>Contate-nos agora!</legend>
+          <label for="name">Nome: </label>
+          <input type="text" name="nome" id="name"placeholder="Digite seu nome aqui">
+
+          <label for="email">E-mail:</label>
+          <input type="text" name="nome" id="email"placeholder="seuemail@email.com">
+
+          <label for="mensagem">Mensagem: </label>
+          <textarea id="mensagem" name="mensagem" rows="5" cols="33" placeholder="Deixe sua mensagem aqui ..."></textarea>
+
+          <button type="submit" class="btn-contato">Enviar</button>
+
+
+
+
+        </form>
+
+      </div>
+      
+      
+      
     </section>
     <footer class="footer">
       <div>

@@ -1,0 +1,138 @@
+.contato{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.contato__title-hr {
+    margin-top: 60px;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(
+      to right,
+      transparent,
+      #42628c,
+      transparent
+    );
+  }
+.contato__container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 40px;
+}
+.contato__container ul{
+    width: 350px;
+    color:#011126;
+}
+.contato__container li,
+.contato__form li{
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.contato__container li h2{
+    font-size: 30px;
+    width: 30%;
+    border-bottom: 2px solid #42628c;;
+    margin-bottom: 20px;
+}
+
+.contato-icon {
+    margin-right: 10px;
+    font-size: 35px;
+    color:#42628c;
+}
+
+.contato__form{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+.contato__form li h2{
+    color:#42628c;
+    font-weight:600;
+    font-size: 30px;
+    width: 80%;
+    border-bottom: 2px solid #b5b8ff;
+    margin-bottom: 20px;
+}
+
+.vantagens-icon {
+    
+    margin-right: 10px;
+    font-size: 35px;
+    color:#b5b8ff;
+}
+
+
+.contato__form ul{
+    width: 350px;
+    color:#011126;
+    margin-bottom: 40px;
+}
+
+.form-contato{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    background-color: #42628c;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.form-contato legend{
+    font-weight:600;
+}
+
+.form-contato label{
+    padding-top: 20px;;
+    font-weight:lighter;
+    font-size: 18px;
+}
+.form-contato input{
+    padding: 5px;
+    border-radius: 7px;
+    border:none;
+}
+.form-contato textarea{
+    margin-bottom: 10px;
+    border-radius: 7px;
+    border:none;
+}
+
+.form-contato input::placeholder,
+.form-contato textarea::placeholder{
+    font-family: 'Outfit', sans-serif;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 300;
+    color:#011126;
+}
+
+.btn-contato{
+    margin: 20px auto;
+    width: 95px;
+    height: 40px;
+    border-radius: 7px;
+    border: none;
+    background-color: #83B3E6;
+    color: #f2f2f2;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.btn-contato:hover{
+    border: 1px solid #83B3E6;
+    background-color: #42628c;
+    transform: scale(1.2);
+    transition: 0.2s;
+   
+}
+
