@@ -1,0 +1,21 @@
+.ferramentas_title{
+    padding: 80px 0 30px 0;
+    margin: 25px 0 20px 0;
+    text-align: center;
+    font-weight: 200;
+    font-size: 40px;
+    color: #ffffff;
+    
+}
+.div_ferramentas_1{
+    background-color: #1a293c;
+}
+.texto_div_ferramentas_1{
+    text-align: justify;
+    font-size: 16px;
+}
+.texto_2_div_ferramentas{
+    text-align: justify;
+    font-size: 16px;
+    padding: 12px
+}

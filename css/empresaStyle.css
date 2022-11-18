@@ -8,7 +8,8 @@
     color: #000C79;
 }
 .texto_valores{
-    font-size: 36px;
+    font-size: 16px !important;
+    font-weight: 300;
     letter-spacing: 0.1em;
     text-align: left;
     color: #000000;
@@ -16,4 +17,30 @@
 
 .title-blue {
     color: #A0C3D9 !important;
+}
+.div_itens_empresas{
+    height: 500px !important;
+}
+.titulo_itens_empresas{
+    font-size: 16px !important;
+    
+}
+.texto_itens_empresas{
+    color: #000000;
+    text-align: justify;
+}
+.h_itens_empresas{
+    height: 357px !important;
+}
+.empresa_title{
+    padding: 80px 0 30px 0;
+    margin: 25px 0 20px 0;
+    text-align: center;
+    font-weight: 200;
+    font-size: 40px;
+    
+}
+.empresa_title_span {
+    color: #b5b8ff;
+    font-weight: 700;
 }
