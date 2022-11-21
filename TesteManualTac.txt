@@ -1,0 +1,12 @@
+Teste manual
+
+------------------------------------------------------------------
+
+Site responsivo, necessita ser colocado em contato com o servidor
+para poder testar com efetividade as opções de mensagem e entrar.
+
+Fotos em ferramentas estão deslocadas.
+
+------------------------------------------------------------------
+
+Outros itens estão em conformidade
