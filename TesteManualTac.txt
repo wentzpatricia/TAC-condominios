@@ -10,3 +10,11 @@ Fotos em ferramentas estão deslocadas.
 ------------------------------------------------------------------
 
 Outros itens estão em conformidade
+
+24/11 - 
+
+Fotos em ferramentas estão desproporcionais e com pouca definição
+
+Opção de mensagem direciona para o site antigo
+Tentativa de entrar no sistema sem usuario e senha também direciona ao site antigo
+
